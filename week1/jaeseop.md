@@ -1,5 +1,20 @@
 week1 Homework
 
+Ex 1
+
+```py
+radius = float(input("반지름 : "))
+pi = 3.141592
+
+area = pi * (radius**2)
+circum = 2 * pi * radius
+
+print("원 면적 : ", round(area, 2))
+print("원 둘레 : ", round(circum, 2))
+```
+![image](https://user-images.githubusercontent.com/114458636/227938114-8d4c34f6-c27f-416d-82a2-a9fde81d2573.png)
+
+
 Ex 3
 
 ```py
