@@ -13,6 +13,7 @@ print("원 면적 : ", round(area, 2))
 print("원 둘레 : ", round(circum, 2))
 ```
 ![image](https://user-images.githubusercontent.com/114458636/227938114-8d4c34f6-c27f-416d-82a2-a9fde81d2573.png)
+![image](https://user-images.githubusercontent.com/114458636/227938456-3104d449-d15a-402a-9294-9bdba8fbdcba.png)
 
 
 Ex 3
