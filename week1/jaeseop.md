@@ -1,3 +1,7 @@
+week1 Homework
+
+Ex 3
+
 ```py
 price = int(input("금액 입력 : "))
 
