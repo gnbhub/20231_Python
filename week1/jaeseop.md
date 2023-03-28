@@ -15,6 +15,18 @@ print("원 둘레 : ", round(circum, 2))
 ![image](https://user-images.githubusercontent.com/114458636/227938114-8d4c34f6-c27f-416d-82a2-a9fde81d2573.png)
 ![image](https://user-images.githubusercontent.com/114458636/227938456-3104d449-d15a-402a-9294-9bdba8fbdcba.png)
 
+Ex2
+```py
+numbers = eval(input("수를 입력 : "))
+
+print(numbers)
+
+expression = input("일반 수식을 그대로 입력 : ")
+answer = eval(expression)
+
+print("결과 : %.2f" %round(answer,2))
+```
+![image](https://user-images.githubusercontent.com/114458636/228095678-b37d7992-4c12-4e4f-8718-6d1b53a7dd27.png)
 
 Ex 3
 
