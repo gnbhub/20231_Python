@@ -25,8 +25,8 @@ Numlist = input("8자리 수를 입력하시오. ---> ")
 
 print("\'거꾸로 출력한 결과는 ", end='')
 
-for i in range(0,8) :
-    print("%c" %(Numlist[7-i]), end='')
+for i in range(1,9) :
+    print("%c" %(Numlist[-i]), end='')
 
 print("입니다.\'")
 ```
