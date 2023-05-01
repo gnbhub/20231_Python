@@ -29,3 +29,21 @@ else :
 ```
 ![image](https://user-images.githubusercontent.com/114458636/235449918-6d7a850c-29df-452f-b9b5-f070e57195b9.png)
 ![image](https://user-images.githubusercontent.com/114458636/235449944-7458924e-7632-43f2-9aee-d5f9a124e9a5.png)
+
+```py
+#Example 2
+
+total = 0;
+i=1;
+
+while total<=1000:
+    if i%3!=0 and i%5!=0 :
+        total = total + i
+        i += 1
+
+    else :
+        i += 1
+
+print("%d" %total)
+```
+![image](https://user-images.githubusercontent.com/114458636/235451112-c6190845-dd57-4085-b6a5-f14c7aecc893.png)
