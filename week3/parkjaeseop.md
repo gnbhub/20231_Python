@@ -78,3 +78,23 @@ while i <1000 :
     i += 1
 ```    
 ![image](https://user-images.githubusercontent.com/114458636/235453397-8be48876-1ec2-4b55-8889-bce5e9f360ff.png)
+
+```py
+#Example 5
+
+num = int(input("소수를 판별할 수를 입력하세요 : "))
+Trig = 0
+
+for i in range(2,num) :
+    if num % i != 0 :
+        print("성공")
+        continue
+
+    else :
+        print("%d는 소수가 아닙니다." %num)
+        Trig = 1
+        break
+
+if Trig == 0 :
+    print("%d는 소수입니다." %num)
+```
