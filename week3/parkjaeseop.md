@@ -87,7 +87,6 @@ Trig = 0
 
 for i in range(2,num) :
     if num % i != 0 :
-        print("성공")
         continue
 
     else :
@@ -99,3 +98,4 @@ if Trig == 0 :
     print("%d는 소수입니다." %num)
 ```
 ![image](https://user-images.githubusercontent.com/114458636/235457302-10900c43-1770-47a1-a860-8168abe65187.png)
+![image](https://user-images.githubusercontent.com/114458636/235457427-d1617a9f-7d96-4101-bcb7-f4d05406a7ac.png)
