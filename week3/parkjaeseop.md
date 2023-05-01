@@ -47,3 +47,17 @@ while total<=1000:
 print("%d" %total)
 ```
 ![image](https://user-images.githubusercontent.com/114458636/235451112-c6190845-dd57-4085-b6a5-f14c7aecc893.png)
+
+```py
+#Example 3
+
+year = int(input("검사할 년도를 임력하세요 :"))
+
+if (year%4 == 0 and year%100!=0) or year%400==0 :
+    print("윤년입니다.")
+
+else :
+    print("윤년이 아닙니다.")
+```
+![image](https://user-images.githubusercontent.com/114458636/235452105-35ad4716-279f-4562-8fd9-04ef9fd77d32.png)
+![image](https://user-images.githubusercontent.com/114458636/235452142-7d3ffdf7-e07b-45ea-8d17-56d755def9ab.png)
