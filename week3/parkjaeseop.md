@@ -61,3 +61,20 @@ else :
 ```
 ![image](https://user-images.githubusercontent.com/114458636/235452105-35ad4716-279f-4562-8fd9-04ef9fd77d32.png)
 ![image](https://user-images.githubusercontent.com/114458636/235452142-7d3ffdf7-e07b-45ea-8d17-56d755def9ab.png)
+
+```py
+#Example 4
+
+i=100
+
+while i <1000 :
+    a = i//100
+    b = (i%100)//10
+    c = i%10
+
+    if a**3 + b**3 + c**3 == i :
+        print("%d" %i , end=" ")
+
+    i += 1
+```    
+![image](https://user-images.githubusercontent.com/114458636/235453397-8be48876-1ec2-4b55-8889-bce5e9f360ff.png)
