@@ -34,3 +34,20 @@ print(M_List,end='')
 print("라는 리스트인 경우에는 %d번째 숫자인 %d까지 합한 결과 %d이 최대값입니다." %(Loti+1,M_List[Loti],temp2))
 ```
 ![image](https://github.com/gnbhub/20231_Python_Study/assets/114458636/60ddd238-3185-48ba-9671-b87c3b204bae)
+
+ex3
+```py
+#ex3
+
+M_list=[]
+temp=0
+
+for i in range(0,7) :
+    M_list.append(int(input("숫자를 입력하세요 : ")))
+
+M_list.sort()
+M_list.reverse()
+
+print(M_list[1])
+```
+![image](https://github.com/gnbhub/20231_Python_Study/assets/114458636/d918d427-f7e8-4aff-8fb1-97c93517cd15)
