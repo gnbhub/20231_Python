@@ -67,3 +67,22 @@ List1.reverse()
 print(List1)
 ```
 ![image](https://github.com/gnbhub/20231_Python_Study/assets/114458636/08e8ba64-e5bf-496d-944b-26ddeb54b512)
+
+ex5
+```py
+#ex5
+
+given_list=[1,2,3,2,2,3,1,4,2,5,2,3,3]
+count_list=[]
+Tlist=[]
+
+for i in range(1,6):
+    count_list.append(given_list.count(i))
+
+Tlist.extend(count_list)
+count_list.sort()
+
+print("%d가 %d번 등장했습니다." %(Tlist.index(count_list[-1])+1, count_list[-1]))
+```
+![image](https://github.com/gnbhub/20231_Python_Study/assets/114458636/077d028f-3057-4d47-ac84-f578941deaba)
+
